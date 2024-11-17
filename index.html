@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trabook Landing Page</title>
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="logo">Trabook</div>
+      <nav class="nav">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Destination</a>
+        <a href="#">Tour</a>
+        <a href="#">Blog</a>
+      </nav>
+      <div class="header-buttons">
+        <a href="#" class="btn login">Login</a>
+        <a href="#" class="btn signup">Sign Up</a>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-text">
+        <h1>
+          Get started your<br />exciting <span class="highlight">journey</span
+          ><br />with us.
+        </h1>
+        <p>
+          A Team of experienced tourism professionals will<br />provide you with
+          the best advice and tips for your<br />desired place.
+        </p>
+        <a href="#" class="btn discover">Discover Now</a>
+      </div>
+      <div class="hero-image">
+        <img src="Image (1).png" alt="Traveler" />
+      </div>
+    </section>
+
+    <!--search bar-->
+
+    <section class="search-bar">
+      <div class="search-field">
+        <label for="location">Location</label>
+        <select id="location">
+          <option value="" disabled selected>Where are you going</option>
+          <option value="location1">Location 1</option>
+          <option value="location2">Location 2</option>
+        </select>
+      </div>
+      <div class="search-field">
+        <label for="date">Date</label>
+        <input type="date" id="date" />
+      </div>
+      <div class="search-field">
+        <label for="guests">Guest</label>
+        <input type="number" id="guests" placeholder="Number of guest" />
+      </div>
+      <button class="btn explore">Explore Now</button>
+    </section>
+
+    <!-- Page 2: Things You Need to Do Section -->
+    <section class="things">
+      <h1 class="section-title">
+        Things you need <span class="highlight">to do</span>
+      </h1>
+      <p class="section-para">
+        We ensure that you'll embark on a perfectly planned, safe vacation at a
+        price you can afford.
+      </p>
+      <div class="things-grid">
+        <div class="things-card">
+          <div class="things-icon">
+            <img src="Group (1).png" alt="Sign Up" />
+          </div>
+          <h2>Sign Up</h2>
+          <p>Complete all the work associated with planning and processing.</p>
+        </div>
+        <div class="things-card">
+          <div class="things-icon">
+            <img src="Group (2).png" alt="Worth of Money" />
+          </div>
+          <h2>Worth of Money</h2>
+          <p>Access exclusive deals & pricing after successful registration.</p>
+        </div>
+        <div class="things-card">
+          <div class="things-icon">
+            <img src="Group (3).png" alt="Exciting Travel" />
+          </div>
+          <h2>Exciting Travel</h2>
+          <p>Start and explore a wide range of exciting travel experiences.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Page 3: Exclusive Deals & Discounts Section -->
+    <section class="exclusive">
+      <h1 class="section-title">
+        Exclusive <span class="highlight"> deals & discounts</span>
+      </h1>
+      <p class="section-para">
+        Discover our fantastic early booking discounts<br />
+        & start planning your journey.
+      </p>
+
+      <div class="cards-container">
+        <!-- Card 1 -->
+        <div class="cards">
+          <img src="mad.png" alt="Madrid Image" width="200" />
+          <div class="ms">
+            <h3>Madrid</h3>
+            <p>⭐ 4.8</p>
+          </div>
+          <div class="sd">
+            <p>📍 Spain</p>
+            <p><s>$950</s> <strong>$850</strong></p>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="cards">
+          <img src="fir.png" alt="Firenze Image" width="200" />
+          <button class="book-now">Book Now</button>
+          <div class="ms">
+            <h3>Firenze</h3>
+            <p>⭐ 4.5</p>
+          </div>
+          <div class="sd">
+            <p>📍 Italy</p>
+            <p><s>$850</s> <strong>$750</strong></p>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="cards">
+          <img src="paris.png" alt="Paris Image" width="200" />
+          <div class="ms">
+            <h3>Paris</h3>
+            <p>⭐ 4.4</p>
+          </div>
+          <div class="sd">
+            <p>📍France</p>
+            <p><s>$699</s> <strong>$599</strong></p>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="cards">
+          <img src="lon.png" alt="London Image" width="200" />
+          <div class="ms">
+            <h3>London</h3>
+            <p>⭐ 4.8</p>
+          </div>
+          <div class="sd">
+            <p>📍 UK</p>
+            <p><s>$850</s> <strong>$850</strong></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Navigation Arrows -->
+    <div>
+      <button>&lt;</button>
+      <button>&gt;</button>
+    </div>
+
+    <!--page 4-->
+
+    <!-- Heading Section -->
+    <h1>Best <span class="highlight">vacation plan</span></h1>
+    <p class="subtitle">
+      Plan your perfect vacation with our travel agency. Choose among hundreds
+      of all-inclusive offers!
+    </p>
+
+    <!-- Card Container -->
+    <div class="card-container">
+      <!-- Card 1: Rome, Italy -->
+      <div class="card">
+        <img src="rome.png" alt="Rome, Italy Image" class="card-image" />
+        <h3 class="card-title">Rome, Italy</h3>
+        <p class="card-price">$5,42k</p>
+        <p class="card-trip">✈️ 10 Days Trip</p>
+        <p class="card-rating">⭐ 4.8</p>
+      </div>
+
+      <!-- Card 2: London, UK -->
+      <div class="card">
+        <img src="uk.png" alt="London, UK Image" class="card-image" />
+        <h3 class="card-title">London, UK</h3>
+        <p class="card-price">$2,42k</p>
+        <p class="card-trip">✈️ 07 Days Trip</p>
+        <p class="card-rating">⭐ 4.7</p>
+      </div>
+
+      <!-- Card 3: Osaka, Japan -->
+      <div class="card">
+        <img src="osaka.png" alt="Osaka, Japan Image" class="card-image" />
+        <h3 class="card-title">Osaka, Japan</h3>
+        <p class="card-price">$5,42k</p>
+        <p class="card-trip">✈️ 10 Days Trip</p>
+        <p class="card-rating">⭐ 4.8</p>
+      </div>
+    </div>
+
+    <!-- Navigation Arrows -->
+    <div class="navigation">
+      <button class="nav-button">&lt;</button>
+      <button class="nav-button">&gt;</button>
+    </div>
+
+    <!-- Testimonials Section -->
+
+    <section class="testimonials">
+      <!-- Heading -->
+      <h1>What people say <span>about us.</span></h1>
+      <p>
+        Our Clients send us a bunch of smiles with our services and we love
+        them.
+      </p>
+
+      <!-- Testimonial Card -->
+      <div class="testimonial-card">
+        <!-- User Image -->
+        <div class="user-image">
+          <img src="user1.jpg" alt="User Image" />
+        </div>
+
+        <!-- Testimonial Content -->
+        <div class="testimonial-content">
+          <p>
+            "On the Windows talking painted picture yet its express parties use.
+            Sure last upon he same as knew next. Of beloved or diverted no."
+          </p>
+          <h3>Mike Taylor</h3>
+          <p class="location">Lahore, Pakistan</p>
+        </div>
+      </div>
+
+      <!-- Navigation Buttons -->
+      <div class="navigation">
+        <button class="nav-button">&lt;</button>
+        <button class="nav-button">&gt;</button>
+      </div>
+    </section>
+    <!--blog-->
+        <h1>Get update with<span>latest blog</span></h1>
+        <!-- Blog Section -->
+        <div class="blog-section">
+          <div class="blog">
+            <img src="https://via.placeholder.com/300x200" alt="Blog Image" />
+            <h3>The Amazing Difference a Year of Travelling.</h3>
+            <p>July 27, 2021</p>
+          </div>
+          <div class="blog">
+            <img src="https://via.placeholder.com/300x200" alt="Blog Image" />
+            <h3>Travel far enough, you meet yourself.</h3>
+            <p>July 27, 2021</p>
+          </div>
+          <div class="blog">
+            <img src="https://via.placeholder.com/300x200" alt="Blog Image" />
+            <h3>How to Save Money While Visiting Africa.</h3>
+            <p>July 27, 2021</p>
+          </div>
+          <div class="blog">
+            <img src="https://via.placeholder.com/300x200" alt="Blog Image" />
+            <h3>Reflections on 5 Months of Travel: Time to Hang</h3>
+            <p>July 27, 2021</p>
+          </div>
+        </div>
+
+        <!-- Subscription Section -->
+        <div class="subscription-section">
+          <h2>Subscribe and get exclusive deals & offer</h2>
+          <form>
+            <input type="email" placeholder="Enter your mail" />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+          <div>
+            <h3>Trabook</h3>
+            <p>Book your trip in minutes, get full control for much longer.</p>
+          </div>
+          <div>
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Logistic</a></li>
+              <li><a href="#">Privacy & Policy</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Contact</h4>
+            <ul>
+              <li><a href="#">Help/FAQ</a></li>
+              <li><a href="#">Press</a></li>
+              <li><a href="#">Affiliates</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>More</h4>
+            <ul>
+              <li><a href="#">Press Centre</a></li>
+              <li><a href="#">Our Blog</a></li>
+              <li><a href="#">Low fare tips</a></li>
+            </ul>
+          </div>
+          <p>Copyright Trabook 2022. All rights reserved.</p>
+        </footer>
+      </body>
+    </html>
+  </body>
+</html>
